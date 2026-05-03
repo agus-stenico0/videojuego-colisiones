@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px
+}
+h1 {
+    color: #fff;
+}
+#game {
+    border: 1px solid blue;
+    border-radius: 8px;
+}
